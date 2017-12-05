@@ -1,11 +1,9 @@
+// HDU 2020
 #include<stdio.h>
 #include <math.h>
 int main(){
 	int n,i,a[110],temp;
-	while(scanf("%d",&n) != EOF){
-		if(n==0){
-			break;
-		}
+	while(scanf("%d",&n),n){
 		for(i = 0;i < n;i++){
 			scanf("%d",&a[i]);
 		}
